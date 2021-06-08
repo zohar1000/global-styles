@@ -1,0 +1,51 @@
+.horizontal-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.vertical-top {
+  display: flex;
+  align-items: flex-start;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.vertical-baseline {
+  display: flex;
+  align-items: baseline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.clickable {
+  cursor: pointer !important;
+}
+
+.non-clickable {
+  cursor: default !important;
+}
+
+.disabled {
+  cursor: default !important;
+  pointer-events: none;
+}
