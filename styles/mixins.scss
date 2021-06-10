@@ -1,0 +1,8 @@
+// grid: $cols - number of columns, $col-gap (optional): horizontal gap, $row-gap (optional) - vertical gap
+// use: @include grid(2, 30px, 30px) - creates grid of 2 columns with 30px spaces between rows and columns
+@mixin grid($cols, $col-gap: 1rem, $row-gap: 1rem) {
+  display: grid;
+  grid-template-columns: repeat($cols, 1fr);  // calc(50% - 15px) calc(50% - 15px);
+  grid-column-gap: $col-gap;
+  grid-row-gap: $row-gap;
+}
