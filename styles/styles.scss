@@ -1,3 +1,14 @@
+// font size:
+// https://sjorswijsman.medium.com/3-easy-css-tricks-for-responsive-websites-i-use-in-every-project-68ec334a1522
+
+html {
+  font-size: calc(60% + 0.8vmin);  // will font size will auto shrink for small screens
+}
+
+* {
+  font-size: 1rem;  // elements like inputs don’t use the HTML font-size
+}
+
 .horizontal-space-between {
   display: flex;
   justify-content: space-between;
